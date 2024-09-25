@@ -316,7 +316,7 @@ const products = [
     name: "Makita DGA469 Grinder: LOW RISK",
     imgSrc: "images/MakitaDGA469.jpg",
     risk: "low",
-    vibrationMagnitude: "5.0 m/s² r.m.s",
+    vibrationMagnitude: "5 m/s² r.m.s",
     hsePoints: "50 points/hour",
     maxUsage: "8 hrs",
   },
