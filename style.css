@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #888888;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  #searchBar {
+    margin-top: 1rem;
+    padding: 0.5rem;
+    width: 60%;
+    font-size: 1.1rem;
+  }
+  
+  #productList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+  }
+  
+  .product {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 8px;
+    color: white;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+    margin-right: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Risk Color Coding */
+  .low-risk {
+    background-color: #4CAF50; /* Green */
+  }
+  
+  .medium-risk {
+    background-color: #FF9800; /* Orange */
+  }
+  
+  .high-risk {
+    background-color: #F44336; /* Red */
+  }
+  
