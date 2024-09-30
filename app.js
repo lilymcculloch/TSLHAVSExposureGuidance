@@ -440,6 +440,38 @@ const products = [
     hsePoints: "1 points/hour",
     maxUsage: "8 hrs",
   },
+  {
+    name: "Makita LXT Combi & Impact Drill DHP453: MEDIUM RISK",
+    imgSrc: "images/MakitaLXTCombi.jpg",
+    risk: "medium",
+    vibrationMagnitude: "7.5 m/s² r.m.s",
+    hsePoints: "113 points/hour",
+    maxUsage: "3 hrs 33 mins",
+  },
+  {
+    name: "Makita Grinder GA4530RKD: MEDIUM RISK",
+    imgSrc: "images/MakitaGrinder.jpg",
+    risk: "medium",
+    vibrationMagnitude: "7.5 m/s² r.m.s",
+    hsePoints: "113 points/hour",
+    maxUsage: "3 hrs 33 mins",
+  },
+  {
+    name: "Makita Hammer Drill Model DHR202: HIGH RISK",
+    imgSrc: "images/MakitaDHR202.jpg",
+    risk: "high",
+    vibrationMagnitude: "14.5 m/s² r.m.s",
+    hsePoints: "421 points/hour",
+    maxUsage: "57 mins",
+  },
+  {
+    name: "Makita Grinder Model DGA456: MEDIUM RISK",
+    imgSrc: "images/MakitagrinderDGA456.jpg",
+    risk: "medium",
+    vibrationMagnitude: "6.5 m/s² r.m.s",
+    hsePoints: "85 points/hour",
+    maxUsage: "4 hrs 44 mins",
+  },
   
 ];
 
